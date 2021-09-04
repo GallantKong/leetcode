@@ -15,4 +15,12 @@ public class PrintUtil {
     }
   }
 
+  public static void printArray(Object object) {
+    int[] data = (int[])object;
+    for (Object obj : data) {
+      System.out.print(obj+",");
+    }
+    System.out.println();
+  }
+
 }
