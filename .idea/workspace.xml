@@ -22,11 +22,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="efee0ff4-42f4-4a1a-9a49-e998483362e5" name="Default" comment="背包问题">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gallant/interview/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="efee0ff4-42f4-4a1a-9a49-e998483362e5" name="Default" comment="interview matrix">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/gallant/interview/Stair.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/gallant/leetcode/algorithms/Q1TwoSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/gallant/leetcode/algorithms/Q1TwoSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/gallant/leetcode/algorithms/Q2AddTwoNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/gallant/leetcode/algorithms/Q2AddTwoNumbers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/gallant/leetcode/algorithms/Q3LengthOfLongestSubstring.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/gallant/leetcode/algorithms/Q3LengthOfLongestSubstring.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/gallant/leetcode/algorithms/Q4FindMedianSortedArrays.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/gallant/leetcode/algorithms/Q4FindMedianSortedArrays.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/gallant/leetcode/algorithms/domain/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/gallant/leetcode/algorithms/domain/ListNode.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +97,7 @@
       <recent name="org.gallant.interview" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.KnapsackProblem">
+  <component name="RunManager" selected="Application.StairProblem">
     <configuration name="KnapsackProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.gallant.leetcode.algorithms.KnapsackProblem" />
       <module name="leetcode" />
@@ -137,8 +140,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q3LengthOfLongestSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.gallant.leetcode.algorithms.Q3LengthOfLongestSubstring" />
+    <configuration name="Q4FindMedianSortedArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.gallant.leetcode.algorithms.Q4FindMedianSortedArrays" />
       <module name="leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -151,13 +154,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q4FindMedianSortedArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.gallant.leetcode.algorithms.Q4FindMedianSortedArrays" />
+    <configuration name="StairProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.gallant.interview.StairProblem" />
       <module name="leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.gallant.leetcode.algorithms.*" />
+          <option name="PATTERN" value="org.gallant.interview.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -188,7 +191,7 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Q3LengthOfLongestSubstring" />
+      <item itemvalue="Application.StairProblem" />
       <item itemvalue="Application.Q4FindMedianSortedArrays" />
       <item itemvalue="Application.LeastFrequentlyUsedCache" />
       <item itemvalue="Application.Q200NumIslands" />
@@ -196,11 +199,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StairProblem" />
         <item itemvalue="Application.KnapsackProblem" />
         <item itemvalue="Application.Q200NumIslands" />
         <item itemvalue="Application.LeastFrequentlyUsedCache" />
         <item itemvalue="Application.Q4FindMedianSortedArrays" />
-        <item itemvalue="Application.Q3LengthOfLongestSubstring" />
       </list>
     </recent_temporary>
   </component>
@@ -241,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630238240398</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="interview matrix">
+      <created>1691650781323</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1691650781324</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -265,6 +275,7 @@
     <MESSAGE value="LFU" />
     <MESSAGE value="UnionSet" />
     <MESSAGE value="背包问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="背包问题" />
+    <MESSAGE value="interview matrix" />
+    <option name="LAST_COMMIT_MESSAGE" value="interview matrix" />
   </component>
 </project>
