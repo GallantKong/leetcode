@@ -6,16 +6,16 @@ package org.gallant.interview;
 public class StairProblem {
 
   public static void main(String[] args) {
-    int stairNum = 3;
+    int stairNum = 4;
     System.out.println(count(stairNum));
   }
 
   private static int count(int n) {
-    if (n <= 0) {
+    if (n < 2) {
       return 0;
     }
-    if (n == 1) {
-      return n;
+    if (n == 2) {
+      return 1;
     }
     return 2 * (count(n - 1) + count(n - 2) + count(n - 3));
   }

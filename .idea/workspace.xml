@@ -22,14 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="efee0ff4-42f4-4a1a-9a49-e998483362e5" name="Default" comment="interview matrix">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gallant/interview/Stair.java" afterDir="false" />
+    <list default="true" id="efee0ff4-42f4-4a1a-9a49-e998483362e5" name="Default" comment="interview N stair">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/gallant/leetcode/algorithms/Q1TwoSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/gallant/leetcode/algorithms/Q1TwoSum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/gallant/leetcode/algorithms/Q2AddTwoNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/gallant/leetcode/algorithms/Q2AddTwoNumbers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/gallant/leetcode/algorithms/Q3LengthOfLongestSubstring.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/gallant/leetcode/algorithms/Q3LengthOfLongestSubstring.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/gallant/leetcode/algorithms/Q4FindMedianSortedArrays.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/gallant/leetcode/algorithms/Q4FindMedianSortedArrays.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/gallant/leetcode/algorithms/domain/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/gallant/leetcode/algorithms/domain/ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gallant/interview/StairProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gallant/interview/StairProblem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +81,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/xuechenxi/data/gallant/open_source/leetcode&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
@@ -93,6 +89,9 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.gallant.interview" />
     </key>
@@ -251,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691650781324</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="interview N stair">
+      <created>1692861171957</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1692861171957</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -276,6 +282,7 @@
     <MESSAGE value="UnionSet" />
     <MESSAGE value="背包问题" />
     <MESSAGE value="interview matrix" />
-    <option name="LAST_COMMIT_MESSAGE" value="interview matrix" />
+    <MESSAGE value="interview N stair" />
+    <option name="LAST_COMMIT_MESSAGE" value="interview N stair" />
   </component>
 </project>
